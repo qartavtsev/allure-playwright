@@ -1,6 +1,7 @@
 import { test } from "@playwright/test";
 import { allure } from "allure-playwright";
-page = "www.google.com"
+
+page = "www.google.com";
 
 test("Test with attachments", async ({ page }) => {
   // ...
